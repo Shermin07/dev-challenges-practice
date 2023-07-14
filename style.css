@@ -35,3 +35,21 @@ a {
     border-radius: 5px;
     
 }
+@media screen and (max-width: 576px){
+    .container{
+        flex-direction: column;
+    }
+    .text-container{
+        width: 100%;
+        padding-left: 40px;
+        text-align: left;
+        
+
+     }
+h1{
+    font-size:40px ;
+}
+     .image-container{
+        width: 100%; 
+     }
+}
